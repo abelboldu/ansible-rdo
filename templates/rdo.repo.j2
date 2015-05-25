@@ -1,0 +1,6 @@
+[openstack-rdo]
+name=OpenStack RDO Repository
+baseurl=http://repos.fedorapeople.org/repos/openstack/openstack-{{ openstack_version }}/epel-{{ ansible_distribution_version.split(".")[0] }}/
+enabled=1
+skip_if_unavailable=0
+gpgcheck=0
